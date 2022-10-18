@@ -63,12 +63,12 @@ button.white{
 }
 
 body{
-    width: 100;
+    width: 100%;
 }
 
 /*Header Start */
 #header {
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between ;
     padding: 20px 80px;
@@ -114,6 +114,11 @@ body{
     bottom: -4px;
     left: 20px;
 }
+
+/* #mobile{
+    display: none;
+    align-items: center;
+} */
 
 
 /*Home Page */
@@ -211,12 +216,12 @@ body{
 
 #product1 .pro-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
 }
 #product1 .pro{
-    width: 23%;
+    width: 19%;
     min-width: 250px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
@@ -239,7 +244,7 @@ body{
 
 #product1 .pro .des{
     text-align: start;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 #product1 .pro .des span{
@@ -265,17 +270,17 @@ body{
     color: #088178;
 }
 
-#product1 .pro .cart{
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+#product1 .pro cart {
+    width: 20px;
+    height: 20px;
+    line-height: 10px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    font-weight: 500;
+    font-weight: 200;
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     right: 10px;
 }
 
@@ -335,8 +340,8 @@ body{
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 650px;
-    height: 50vh;
+    min-width: 580px;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -549,8 +554,8 @@ footer .copyright{
     #navbar li {
         margin-bottom: 25px;
     }
-} 
- */
+}  */
+
 
 
 
