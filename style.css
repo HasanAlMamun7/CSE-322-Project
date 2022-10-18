@@ -6,6 +6,35 @@
     font-family: 'Spartam', sans-serif;
 } */
 
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: black;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px;
+} */
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -572,6 +601,27 @@ footer .copyright{
 #pagination a i{
     font-size: 16px;
     font-weight: 600;
+}
+/*-----------Single product details----------------*/
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
 }
 
 
